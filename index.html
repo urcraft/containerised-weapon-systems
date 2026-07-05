@@ -28,7 +28,7 @@
   --shadow:0 18px 40px -22px rgba(0,0,0,.85);
 }
 *{box-sizing:border-box}
-html{scroll-behavior:smooth}
+html{scroll-behavior:smooth;overflow-x:hidden}
 body{
   margin:0;
   background:var(--void);
@@ -65,7 +65,7 @@ img{max-width:100%;display:block}
 .brand-mark::after{content:"";position:absolute;inset:3px 5px;border-top:2px solid var(--hazard)}
 .brand-txt{font-family:"Saira Condensed",sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--stencil);font-size:1.02rem;line-height:1;white-space:nowrap}
 .brand-txt b{color:var(--hazard);font-weight:700}
-.topbar .count{margin-left:auto;font-family:"IBM Plex Mono",monospace;font-size:.72rem;color:var(--haze);letter-spacing:.12em;white-space:nowrap}
+.topbar .count{margin-left:auto;min-width:0;overflow:hidden;text-overflow:ellipsis;font-family:"IBM Plex Mono",monospace;font-size:.72rem;color:var(--haze);letter-spacing:.12em;white-space:nowrap}
 .topbar .count b{color:var(--stencil)}
 
 /* ---------- hero ---------- */
