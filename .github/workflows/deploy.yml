@@ -43,6 +43,7 @@ jobs:
       - name: Assemble static site
         run: |
           cp index.html _site/
+          cp favicon.svg favicon.ico apple-touch-icon.png _site/
           cp -r images _site/images
 
       - name: Upload Pages artifact
