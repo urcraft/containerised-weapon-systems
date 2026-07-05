@@ -1,0 +1,149 @@
+[
+  {
+    "id": "club-k",
+    "name": "Club-K Container Missile System",
+    "aka": "Klab-K; 3M-54/Kh-35UE containerised launcher",
+    "builder": "Concern Morinformsystem-Agat (missiles by Novator Design Bureau)",
+    "country": "Russia",
+    "sortDate": "2010-04-01",
+    "dateLabel": "2010",
+    "dateBasis": "Unveiled 2010 (DSA Malaysia); live Kh-35UE test 22 Aug 2012",
+    "category": "Missile launcher",
+    "concealment": "Concealed cargo",
+    "summary": "The archetype: a standard 20-ft or 40-ft ISO shipping container that conceals four cruise missiles from the Kalibr family (3M-54/3M-14) or Kh-35UE anti-ship missiles, letting any truck, rail car, or cargo ship become a covert missile battery disguised as ordinary freight. Marketed for export by Concern Morinformsystem-Agat, it triggered international alarm over the blurring of civilian and military shipping. A live-fire test of the Kh-35UE variant was reported on 22 August 2012.",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Club-K_container_missile_system", "title": "Club-K container missile system — Wikipedia" },
+      { "url": "https://navyrecognition.com/index.php?id=592&option=com_content&view=article", "title": "Club-K Container Missile System — Navy Recognition" },
+      { "url": "https://euro-sd.com/2025/05/articles/44048/if-it-floats-it-fights-containerised-naval-munitions/", "title": "If It Floats, It Fights: Containerised Naval Munitions — ESD" }
+    ],
+    "photoIsDirect": false,
+    "photoCredit": "Concern Morinformsystem-Agat promotional imagery",
+    "confidence": "high",
+    "notes": "Missiles designed by Novator; container system marketed by Morinformsystem-Agat. Widely regarded as the concept that launched the containerised-weapons debate."
+  },
+  {
+    "id": "iai-lora",
+    "name": "IAI LORA Containerised Ballistic Missile",
+    "aka": "Long-Range Artillery (LORA) naval / ship-deck launch",
+    "builder": "Israel Aerospace Industries (IAI)",
+    "country": "Israel",
+    "sortDate": "2017-06-20",
+    "dateLabel": "June 2017",
+    "dateBasis": "First ship-deck launch 20 Jun 2017; repeat Mediterranean test June 2020",
+    "category": "Missile launcher",
+    "concealment": "Modular deck launcher",
+    "summary": "IAI test-launched its LORA quasi-ballistic missile from a container-dimensioned launcher placed on the deck of a civilian-type cargo ship on 20 June 2017, then repeated the feat in 2020 by striking two floating targets at roughly 90 km and 400 km. Because the sealed launch canister conforms to standard shipping-container dimensions, the system can be hidden among ordinary deck cargo. It demonstrated that a precision ballistic strike could be mounted from an unremarkable merchant hull.",
+    "sources": [
+      { "url": "https://www.twz.com/11723/israel-just-launched-a-containerized-ballistic-missile-from-the-deck-of-a-ship", "title": "Israel Just Launched A Containerized Ballistic Missile From The Deck Of A Ship — The War Zone" },
+      { "url": "https://en.wikipedia.org/wiki/LORA_(missile)", "title": "LORA (missile) — Wikipedia" }
+    ],
+    "photoIsDirect": false,
+    "photoCredit": "Israel Aerospace Industries",
+    "confidence": "high",
+    "notes": "2017/2020 trials used the LORA launcher set on a deck and remote-fired; missiles ship in sealed ISO-conformant canisters."
+  },
+  {
+    "id": "mk70-pds",
+    "name": "Mk 70 Payload Delivery System",
+    "aka": "Mk 70 Mod 1 PDS; containerised Mk 41 VLS",
+    "builder": "Lockheed Martin",
+    "country": "United States",
+    "sortDate": "2021-09-01",
+    "dateLabel": "September 2021",
+    "dateBasis": "Unveiled Sept 2021 via SM-6 launch from USV Ranger",
+    "category": "Missile launcher",
+    "concealment": "Container form-factor",
+    "summary": "The Mk 70 PDS packs four strike-length Mk 41 vertical launch cells into a 40-ft (12 m) ISO-container footprint that erects to fire SM-6 and Tomahawk missiles at maritime and land targets out to roughly 450 km and 1,600 km. First shown in September 2021 when an SM-6 was fired from the unmanned surface vessel USV Ranger, it has since been integrated onto Freedom-class Littoral Combat Ships. Unlike Club-K it makes no attempt at concealment — the container is a modular launcher, not a disguise.",
+    "sources": [
+      { "url": "https://www.navalnews.com/naval-news/2023/09/u-s-navy-and-army-mk-70-pds-stretch-their-wings/", "title": "U.S. Navy And Army Mk 70 PDS Stretch Their Wings — Naval News" },
+      { "url": "https://www.navalnews.com/event-news/sna-2025/2025/01/u-s-navy-brings-offensive-capability-to-lcs-with-mk-70-pds/", "title": "U.S. Navy Brings Offensive Capability To LCS With Mk 70 PDS — Naval News" }
+    ],
+    "photoIsDirect": false,
+    "photoCredit": "U.S. Navy / Lockheed Martin",
+    "confidence": "high",
+    "notes": "A separate claim that the Mk 70 first fired at sea from USS Savannah (LCS 28) in 2023 was refuted; its first at-sea firing was from USV Ranger in 2021."
+  },
+  {
+    "id": "typhon-mrc",
+    "name": "Typhon / Mid-Range Capability (MRC)",
+    "aka": "Strategic Mid-Range Fires; land-based Mk 41 container launcher",
+    "builder": "Lockheed Martin",
+    "country": "United States",
+    "sortDate": "2023-06-27",
+    "dateBasis": "First Tomahawk launch and first-unit operational declaration 27 Jun 2023",
+    "dateLabel": "27 June 2023",
+    "category": "Missile launcher",
+    "concealment": "Container form-factor",
+    "summary": "Typhon is the U.S. Army's land-based sibling of the Mk 70, mounting four strike-length Mk 41 cells in a 40-ft ISO-container footprint on a trailer-borne transporter-erector-launcher that raises to fire SM-6 and Tomahawk. The first battery was declared operational with the 1st Multi-Domain Task Force on 27 June 2023, and the system deployed to the Philippines in April 2024, drawing sharp reactions from China. It gives ground forces a mobile intermediate-range strike capability packaged as a shipping container.",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Typhon_missile_system", "title": "Typhon missile system — Wikipedia" },
+      { "url": "https://www.navalnews.com/naval-news/2023/09/u-s-navy-and-army-mk-70-pds-stretch-their-wings/", "title": "U.S. Navy And Army Mk 70 PDS Stretch Their Wings — Naval News" }
+    ],
+    "photoIsDirect": false,
+    "photoCredit": "U.S. Army",
+    "confidence": "high",
+    "notes": "'Containerised' here denotes the container form-factor that erects to fire, not cargo-disguise concealment."
+  },
+  {
+    "id": "operation-spiderweb",
+    "name": "Operation Spiderweb",
+    "aka": "SBU container-hidden drone strike",
+    "builder": "Security Service of Ukraine (SBU)",
+    "country": "Ukraine",
+    "sortDate": "2025-06-01",
+    "dateLabel": "1 June 2025",
+    "dateBasis": "Executed 1 Jun 2025",
+    "category": "Covert strike",
+    "concealment": "Concealed cargo",
+    "summary": "In the most consequential real-world use of the concealed-container concept, Ukraine's SBU hid around 117 FPV quadcopter drones inside wooden cabin-style containers on flatbed trucks driven deep into Russia by unwitting drivers. On 1 June 2025 the roofs were raised by remote control and the drones swarmed out to strike Russian strategic-bomber bases, damaging Tu-95, Tu-22M3, Tu-160 and A-50 aircraft. It proved that the Club-K idea works — with cheap drones instead of cruise missiles.",
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/Operation_Spiderweb", "title": "Operation Spiderweb — Wikipedia" }
+    ],
+    "photoIsDirect": false,
+    "photoCredit": "Security Service of Ukraine (SBU) handout",
+    "confidence": "high",
+    "notes": "Structures were wooden mobile-cabin boxes rather than ISO containers; 'loitering munitions' is a loose label for the FPV quadcopters used."
+  },
+  {
+    "id": "zhong-da-79",
+    "name": "Chinese Container-Ship Missile Battery",
+    "aka": "Zhong Da 79 'arsenal ship'",
+    "builder": "Chinese state / commercial shipbuilding (operator undisclosed)",
+    "country": "China",
+    "sortDate": "2025-12-01",
+    "dateLabel": "December 2025",
+    "dateBasis": "Photographed at a Shanghai shipyard, Dec 2025",
+    "category": "Naval arsenal",
+    "concealment": "Modular deck launcher",
+    "summary": "A roughly 97 m merchant vessel, Zhong Da 79, was photographed at a Shanghai shipyard on the Huangpu River in December 2025 carrying deck-mounted containerised vertical launch cells — estimates range from 48 (Naval News) to 60 (The War Zone) tubes — plus a phased-array radar and a CIWS dome. Analysts suggest a possible fit of CJ-10 land-attack, YJ-18 anti-ship, or YJ-21 anti-ship ballistic missiles. It is the clearest modern example of a military-civil-fusion 'arsenal ship' built on a container-ship hull.",
+    "sources": [
+      { "url": "https://www.navalnews.com/naval-news/2025/12/container-ship-turned-missile-battery-spotted-in-china/", "title": "Container Ship Turned Missile Battery Spotted In China — Naval News" },
+      { "url": "https://www.twz.com/sea/chinese-cargo-ship-packed-full-of-modular-missile-launchers-emerges", "title": "Chinese Cargo Ship Packed Full Of Modular Missile Launchers Emerges — The War Zone" }
+    ],
+    "photo": "https://www.twz.com/wp-content/uploads/2025/12/China-cargo-arsenal-ship.jpg",
+    "photoIsDirect": true,
+    "photoCredit": "The War Zone / social media imagery",
+    "confidence": "high",
+    "notes": "Cell count is unsettled (48 vs 60 for the same vessel); operational-vs-mockup status unconfirmed; missile fit is analyst speculation."
+  },
+  {
+    "id": "containerized-helios",
+    "name": "Containerised HELIOS Laser",
+    "aka": "Mk 5 Mod 0 HELIOS; Containerized Maritime High Energy Laser Weapon System",
+    "builder": "Lockheed Martin (for U.S. Navy)",
+    "country": "United States",
+    "sortDate": "2026-05-29",
+    "dateLabel": "2026 (draft FY2027 NDAA)",
+    "dateBasis": "Congressional funding push, draft FY2027 NDAA",
+    "category": "Directed energy",
+    "concealment": "Container form-factor",
+    "summary": "HELIOS (High-Energy Laser with Integrated Optical-dazzler and Surveillance) is a 60 kW-class Lockheed Martin laser, designated Mk 5 Mod 0 and already deployed on the destroyer USS Preble. In 2026 an early draft of the FY2027 National Defense Authorization Act moved to authorise $5 million for a containerised HELIOS plus $2.5 million for a separate 'Containerized Maritime High Energy Laser Weapon System.' The push would repackage the shipboard laser into a deployable container for wider basing.",
+    "sources": [
+      { "url": "https://www.twz.com/news-features/containerized-variant-of-navys-drone-swatting-helios-laser-being-pushed-by-congress", "title": "Containerized Variant Of Navy's Drone-Swatting HELIOS Laser Being Pushed By Congress — The War Zone" }
+    ],
+    "photoIsDirect": false,
+    "photoCredit": "U.S. Navy / Lockheed Martin",
+    "confidence": "high",
+    "notes": "A draft authorisation, not enacted law and not yet built."
+  }
+]
