@@ -16,11 +16,36 @@ Every system is tagged by **concealment posture**, shown by the connector colour
 
 ## How it's built
 
-- `index.html` — the entire site: self-contained HTML/CSS/JS, no build step, no framework.
-- `data/systems.json` — the dataset the page renders (fetched at runtime).
+- `index.html` — the entire site: self-contained HTML/CSS/JS, no framework.
+- `data/systems.xlsx` — **the editable dataset and single source of truth.** One row per system; open it in Excel, Google Sheets, LibreOffice or Numbers to add or change entries.
+- `data/systems.json` — generated from the spreadsheet at deploy time and fetched by the page at runtime. It is **not** committed (see `.gitignore`).
+- `scripts/build_data.py` — converts `systems.xlsx` → `systems.json`.
+- `scripts/json_to_xlsx.py` — the inverse, used to (re)generate the spreadsheet from JSON if needed.
 - `images/` — one representative photo per system, hosted locally.
 
 Type: **Saira Condensed** (display) · **Public Sans** (body) · **IBM Plex Mono** (data plates), via Google Fonts.
+
+### Editing the data
+
+1. Open `data/systems.xlsx` and edit the rows. Each card is one row.
+   - Simple fields have one column each: `name`, `builder`, `country`, `summary`, etc.
+   - The photo is split across `photo_file`, `photo_credit`, `photo_license`, `photo_source`.
+   - Up to three sources use `source1_url` / `source1_title` … `source3_url` / `source3_title`.
+   - Add a new system with a new row; drop its photo under `images/` and point `photo_file` at it (e.g. `images/new-system.jpg`).
+2. Commit the spreadsheet (and any new image) and push to `main`.
+3. GitHub Actions rebuilds `systems.json` and redeploys the site automatically.
+
+To preview locally, regenerate the JSON first and serve the folder:
+
+```bash
+pip install openpyxl
+python scripts/build_data.py          # writes data/systems.json
+python -m http.server                 # then open http://localhost:8000
+```
+
+### Deployment
+
+`.github/workflows/deploy.yml` runs on every push to `main`: it builds `systems.json` from the spreadsheet, assembles `index.html` + `images/` + the generated JSON, and publishes to GitHub Pages. **One-time setup:** in the repo's **Settings → Pages**, set **Source** to **GitHub Actions**.
 
 ## Sources & licensing
 
