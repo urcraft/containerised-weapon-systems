@@ -23,6 +23,7 @@ Every system is tagged by **concealment posture**, shown by the connector colour
 - `scripts/json_to_xlsx.py` — the inverse, used to (re)generate the spreadsheet from JSON if needed.
 - `images/` — one representative photo per system, hosted locally.
 - `favicon.ico` / `favicon-32.png` / `apple-touch-icon.png` — the site icon (an olive shipping container with a turret: a triple missile pod and a main gun).
+- `og-image.png` — the 1200×630 social share card (Open Graph / Twitter) shown when the link is posted to WhatsApp, Slack, etc.
 
 Type: **Saira Condensed** (display) · **Public Sans** (body) · **IBM Plex Mono** (data plates), via Google Fonts.
 
