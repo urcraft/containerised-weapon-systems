@@ -1,6 +1,13 @@
 # Local research source document — not published to the site
 data/Containerized Military Hardware Research.pdf
 
+# Generated from data/systems.xlsx by scripts/build_data.py — the spreadsheet
+# is the single source of truth; the JSON is rebuilt at deploy time.
+data/systems.json
+
+# GitHub Pages build output
+_site/
+
 # OS / editor cruft
 Thumbs.db
 .DS_Store

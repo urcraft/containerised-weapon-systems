@@ -1,0 +1,62 @@
+name: Build and deploy site
+
+# Rebuilds data/systems.json from the editable spreadsheet (data/systems.xlsx)
+# and publishes the static site to GitHub Pages. The spreadsheet is the single
+# source of truth — the generated JSON is never committed to the repository.
+#
+# One-time setup: in the repository Settings → Pages, set "Source" to
+# "GitHub Actions" so this workflow is allowed to deploy.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment; newer pushes supersede in-flight ones.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install openpyxl
+
+      - name: Build systems.json from spreadsheet
+        run: python scripts/build_data.py --out _site/data/systems.json
+
+      - name: Assemble static site
+        run: |
+          cp index.html _site/
+          cp -r images _site/images
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
