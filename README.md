@@ -22,6 +22,7 @@ Every system is tagged by **concealment posture**, shown by the connector colour
 - `scripts/build_data.py` — converts `systems.xlsx` → `systems.json`.
 - `scripts/json_to_xlsx.py` — the inverse, used to (re)generate the spreadsheet from JSON if needed.
 - `images/` — one representative photo per system, hosted locally.
+- `favicon.ico` / `favicon-32.png` / `apple-touch-icon.png` — the site icon (an olive shipping container with a turret: a triple missile pod and a main gun).
 
 Type: **Saira Condensed** (display) · **Public Sans** (body) · **IBM Plex Mono** (data plates), via Google Fonts.
 
@@ -45,7 +46,7 @@ python -m http.server                 # then open http://localhost:8000
 
 ### Deployment
 
-`.github/workflows/deploy.yml` runs on every push to `main`: it builds `systems.json` from the spreadsheet, assembles `index.html` + `images/` + the generated JSON, and publishes to GitHub Pages. **One-time setup:** in the repo's **Settings → Pages**, set **Source** to **GitHub Actions**.
+`.github/workflows/deploy.yml` runs on every push to `main`: it builds `systems.json` from the spreadsheet, assembles `index.html` + `images/` + the icon files + the generated JSON, and publishes to GitHub Pages. **One-time setup:** in the repo's **Settings → Pages**, set **Source** to **GitHub Actions**.
 
 ## Sources & licensing
 
