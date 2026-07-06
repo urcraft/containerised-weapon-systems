@@ -364,7 +364,7 @@ function yearOf(e){return (e.sortDate||"").slice(0,4);}
 
 let DATA=[], activeCat="ALL";
 
-fetch("./data/systems.json").then(r=>r.json()).then(d=>{DATA=d;init();})
+fetch("./data/systems.json").then(r=>r.json()).then(d=>{DATA=d.slice().sort((a,b)=>(b.sortDate||"").localeCompare(a.sortDate||""));init();})
   .catch(err=>{document.getElementById("rows").innerHTML='<div class="loading" style="color:var(--oxide)">// FAILED TO LOAD MANIFEST — '+esc(String(err))+'</div>';});
 
 function init(){
