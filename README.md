@@ -6,7 +6,7 @@ An open-source, single-page catalogue of military hardware that is **hidden insi
 
 ## What's here
 
-27 systems across 16 nations and nine weapon classes (strike missiles, loitering-munition swarms, directed energy, air-defence / C-UAS, artillery, naval "arsenal ships", covert/disguised launchers, autonomous vehicles and modular mission systems). Each entry carries an official name, builder, country, the most timeline-relevant date, a short factual summary, cited sources, and one representative photo.
+64 systems across 22 nations and nine weapon classes (strike missiles, loitering-munition swarms, directed energy, air-defence / C-UAS, artillery, naval "arsenal ships", covert/disguised launchers, autonomous vehicles and modular mission systems). Each entry carries an official name, builder, country, the most timeline-relevant date, a short factual summary, cited sources, and one representative photo.
 
 Every system is tagged by **concealment posture**, shown by the connector colour on the timeline:
 
@@ -51,7 +51,7 @@ python -m http.server                 # then open http://localhost:8000
 
 ## Sources & licensing
 
-Data is compiled from 70+ public sources — defence media (The War Zone, Naval News, Army Recognition, European Security & Defence), manufacturer material, government releases and reputable encyclopaedias — cited per entry.
+Data is compiled from 120+ public sources — defence media (The War Zone, Naval News, Army Recognition, European Security & Defence), manufacturer material, government releases and reputable encyclopaedias — cited per entry.
 
 Photos are drawn from **Wikimedia Commons**, **U.S. Department of Defense** public-domain imagery, and cited defence-media / manufacturer sources; each image is credited in its caption. Where an image is not public domain it is used for non-commercial documentation and journalism, with attribution.
 
